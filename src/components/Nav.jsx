@@ -1,10 +1,10 @@
 const Nav = () => {
   return (
-    <header className="py-10 xl:mx-64 mx-32">
+    <header className="py-10 xl:mx-64 mx-8">
       <nav className="flex justify-between items-center">
-        <a href="/" className="text-3xl font-montserrat">Menu</a>
-        <img src="logo.svg" alt="logo" height={48} width={48} />
-        <a href="/" className="text-3xl font-montserrat">Locations</a>
+        <a href="/" className="xl:text-3xl text-xl font-montserrat">Menu</a>
+        <img className="xl:h-12 xl:w-12 h-9 w-9" src="logo.svg" alt="logo" />
+        <a href="/" className="xl:text-3xl text-xl font-montserrat">Locations</a>
       </nav>
     </header>
 

@@ -2,7 +2,7 @@ import ImageCard from "../components/ImageCard"
 
 const Glimpse = () => {
   return (
-    <div className="xl:mx-64 mx-32 my-10 w-full">
+    <div className="xl:mx-64 mx-16 my-10 w-full">
         <h1 className="text-4xl font-grotesque font-bold text-light-brown">A Glimpse of Our World</h1>
         <div className="grid lg:grid-cols-square lg:grid-rows-square grid-cols-1 gap-4 items-center text-center mt-4">
             <ImageCard image='DifferentWays.jpg' alt="Different ways to drink coffee" />

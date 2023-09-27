@@ -10,7 +10,7 @@ const Footer = () => {
                 <a href="#" className="text-white"><InstagramLogoIcon height={24} width={24}/></a>
                 <a href="#" className="text-white"><SpeakerLoudIcon height={24} width={24}/></a>
             </div>
-            <h1 className="text-white text-xl mt-6">&copy; 2023 Café Aroma, All rights reserved.</h1>
+            <h1 className="text-white xl:text-xl text-base mt-6">&copy; 2023 Café Aroma, All rights reserved.</h1>
         </div>
     </footer>
   )
